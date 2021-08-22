@@ -10,6 +10,8 @@
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT"></a>
 </p>
 
+![](https://raw.githubusercontent.com/xuanvinhtd/share_my_dev_exps/main/docs/assets/header_.png)
+
 
 The place to share David Ho's programming experiences..
 
