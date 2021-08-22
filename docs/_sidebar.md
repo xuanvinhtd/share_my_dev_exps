@@ -1,15 +1,7 @@
 - Introduction
 
   - [Getting Started](gettingstarted.md)
-  - [Why Bloc?](whybloc.md)
-  - Core Concepts
-    - [package:bloc](coreconcepts.md)
-    - [package:flutter_bloc](flutterbloccoreconcepts.md)
-  - [Architecture](architecture.md)
-  - [Testing](testing.md)
-  - [Naming Conventions](blocnamingconventions.md)
-  - [FAQs](faqs.md)
-  - [Migration](migration.md)
+  - [Why I write this documentation?](whyusedoc.md)
 
 - Tutorials
 
