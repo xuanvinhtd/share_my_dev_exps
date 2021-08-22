@@ -25,21 +25,24 @@ This documents includes a lot of the examples, tutorials, short tips, exprience 
 - [Website Official for this documentation](https://xuanvinhtd.github.io/share_my_dev_exps/)
 - [Github](https://github.com/xuanvinhtd/share_my_dev_exps/blob/main/README.md)
 
-!> The Tips: If you access from Git, you should access this doc by web official above to easy to read and learn all this documentation. Use LEFT SLIDER BAR to tracking and see all contents of this website.
+!> The Tips: If you access from Git, you should access this doc by web official above to easy to read and learn all this documentation
 
-# Contents
-### Short Tips, Tutorial vs My Exps
+# All the Contents you can find at here
 
-### Setup environments
-### Flutter
+- Short Tips, Tutorial, My Exps
+- Setup environments
+- iOS
+- Android
+- Flutter
+- React Native
+- Cheat sheet
+- Others
+- Examples
+- Video Tutorials
+- HIKO Team Document
 
-### React Native
-### Others
-
-### Examples
-### Video Tutorials
-
-### HIKO Team
-## Maintainers
-
+?> Use LEFT SLIDER BAR to tracking and see all contents of this website.
+# Maintainers
 - [David Ho](https://github.com/xuanvinhtd)
+
+[MIT license](LICENSE)
