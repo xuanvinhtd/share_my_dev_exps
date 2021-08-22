@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/xuanvinhtd/share_my_dev_exps/blob/main/docs/assets/bloc_logo_full.png" height="100" alt="David Ho" /><br/><small>v1.0.0</small>
+<img src="https://raw.githubusercontent.com/xuanvinhtd/share_my_dev_exps/main/docs/assets/bloc_logo_full.png" height="100" alt="David Ho" /><br/><small>v1.0.0</small>
 
 [![style: effective dart](https://img.shields.io/badge/style-effective_dart-40c4ff.svg)](https://github.com/tenhobi/effective_dart)
 [![Flutter Website](https://img.shields.io/badge/flutter-website-deepskyblue.svg)](https://flutter.dev/docs/development/data-and-backend/state-mgmt/options#bloc--rx)

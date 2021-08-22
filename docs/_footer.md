@@ -1,2 +1,2 @@
-Made with 💙 by [the Bloc Community](https://github.com/felangel/bloc/graphs/contributors).<br/>
-[Become a Sponsor](https://github.com/sponsors/felangel) 💖
+Contact with me by [hoxuanvinhuit93@gmail.com](hoxuanvinhuit93@gmail.com).<br/>
+[Or Facebook](https://www.facebook.com/xuanvinh.ho/) 💖
