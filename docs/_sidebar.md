@@ -5,8 +5,8 @@
 
 - Hiko Mobile Team
 
-  - [Workflow](todo.md)
-  - [Convention](todo.md)
+  - [Workflow](hikoworkflow.md)
+  - [Contribution](contribution.md)
 
 - Tutorials vs tips
 
