@@ -22,7 +22,7 @@ This documents includes a lot of the examples, tutorials, short tips, exprience 
 
 ## Documentation
 
-- [Website Official for this documentation](https://xuanvinhtd.github.io/share_my_dev_exps/)
+- [Website Official](https://xuanvinhtd.github.io/share_my_dev_exps/)
 - [Github](https://github.com/xuanvinhtd/share_my_dev_exps/blob/main/README.md)
 
 !> The Tips: If you access from Git, you should access this doc by web official above to easy to read and learn all this documentation
@@ -41,7 +41,7 @@ This documents includes a lot of the examples, tutorials, short tips, exprience 
 - Video Tutorials
 - HIKO Team Document
 
-?> Use LEFT SLIDER BAR to tracking and see all contents of this website.
+?> Use LEFT SLIDER BAR to tracking and see all contents of [this website](https://xuanvinhtd.github.io/share_my_dev_exps/).
 # Maintainers
 - [David Ho](https://github.com/xuanvinhtd)
 
