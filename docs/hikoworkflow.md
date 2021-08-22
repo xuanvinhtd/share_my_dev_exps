@@ -18,30 +18,30 @@ And in Jira, we have the ticket or the card to tracking the task for the project
 The ticket have ticket code(Ex: `AM18-621`), title, link and so on.
 
 - `Developer` create a new feature branch with the format:
+
 ```
 feature/[ticket code]
-
 Ex: feature/AM18-621
 ```
 
 In case, have not ticket:
+
 ```
 feature/[to do someting]
-
 Ex: feature/add_home_page
 ```
 
 - `Developer` create a new branch to fix bug with the format:
+
 ```
 bugfix/[ticket code]
-
 Ex: bugfix/AM18-621
 ```
 
 In case, have not ticket:
+
 ```
 bugfix/[fix someting]
-
 Ex: bugfix/home_logo
 ```
 
@@ -54,11 +54,9 @@ After finish task, `Developer` creating a Pull Request(PR) to `other members` re
 ```
 Title: 
 [Ticket code] #[Ticket title]
-
 Content:
 Issue related:
 - Link jira ticket
-
 ```
 
 Ex:
@@ -66,12 +64,12 @@ Ex:
 ```
 Title: 
 AM18-621 #Add home screen
-
 Content:
 Issue related:
 - https://demo.atlassian.net/browse/AM99-621
 
 ```
+
 - And assign `other members` review your code
 - Finally, get link PR, post in Mobile Team room, and tag members to review it.
 
@@ -100,6 +98,7 @@ Issue related:
 `Developer` must daily report in project group to everyone tracking the progress of the project.
 
 Format Report:
+
 ```
 [Mobile][Daily Report] dd/mm/yy
 Yesterday Actual: 
