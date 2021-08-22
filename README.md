@@ -8,21 +8,6 @@
 <a href="https://github.com/Solido/awesome-flutter#standard"><img src="https://img.shields.io/badge/awesome-flutter-blue.svg?longCache=true" alt="Awesome Flutter"></a>
 <a href="http://fluttersamples.com"><img src="https://img.shields.io/badge/flutter-samples-teal.svg?longCache=true" alt="Flutter Samples"></a>
 <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-purple.svg" alt="License: MIT"></a>
-  [![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
-[![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)]()
-[https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white]()
-[https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black]()
-[https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white]()
-[https://img.shields.io/badge/Kotlin-0095D5?&style=for-the-badge&logo=kotlin&logoColor=white]()
-[https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white]()
-[https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white]()
-[https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB]()
-[https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white]()
-[https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white]()
-[https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white]()
-[https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white]()
-[https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white]()
-[https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white]()
 </p>
 
 The place to share David Ho's programming experiences..
