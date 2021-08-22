@@ -17,11 +17,11 @@ The place to share David Ho's programming experiences..
 The goal of this documents is to help you easy, quick to do something in you process programming with iOS, Android, Swift, Python, Dart, Javascript, Flutter, React Native, Github...and so on. Everything related to the programming.
 This documents includes a lot of the examples, tutorials, short tips, exprience and so on. All of this things UPDATING NEWEST, REALITY and helpful for DEVELOPER, help them save a day!
 
-😘 You can rate this doc a ⭐ STAR to help share it with everyone([git](https://github.com/xuanvinhtd/share_my_dev_exps/)) 😘
+?> You can rate this doc a ⭐ STAR to help share it with everyone([git](https://github.com/xuanvinhtd/share_my_dev_exps/)).
+
 ## Documentation
 
 - [Website Official for this documentation](https://xuanvinhtd.github.io/share_my_dev_exps/)
-- [Hiko Mobile Team](https://xuanvinhtd.github.io/share_my_dev_exps/)
 - [Github](https://github.com/xuanvinhtd/share_my_dev_exps/blob/main/README.md)
 
 😄 Tips: You should access this doc by web official above to easy to read and learn all this documentation. Use LEFT SLIDER BAR to see all contents of this website.
