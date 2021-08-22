@@ -24,7 +24,7 @@ This documents includes a lot of the examples, tutorials, short tips, exprience 
 - [Website Official for this documentation](https://xuanvinhtd.github.io/share_my_dev_exps/)
 - [Github](https://github.com/xuanvinhtd/share_my_dev_exps/blob/main/README.md)
 
-😄 Tips: You should access this doc by web official above to easy to read and learn all this documentation. Use LEFT SLIDER BAR to see all contents of this website.
+!> The Tips: You should access this doc by web official above to easy to read and learn all this documentation. Use LEFT SLIDER BAR to see all contents of this website.
 ## Short Tips, Tutorial vs My Exps
 
 ## Setup environments
