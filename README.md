@@ -13,7 +13,10 @@
 ![](https://raw.githubusercontent.com/xuanvinhtd/share_my_dev_exps/main/docs/assets/header_.png)
 
 
-The place to share David Ho's programming experiences..
+# The place to share David Ho's programming experiences..
+
+## Who am I ?
+I'm Ho Xuan Vinh(David Ho), a lovely mobile developer. He has been working on it professionally for over 5 years with iOS, MacOS, WatchOS, Android, Python, Flutter, React Native. My hometown is Quang Nam province. Now, I’m living and working at Da Nang city and work at HIKO Team.
 
 ## Overview
 
