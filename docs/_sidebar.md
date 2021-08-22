@@ -5,40 +5,41 @@
 
 - Hiko Mobile Team
 
-  - [Workflow](gettingstarted.md)
-  - [Convention](whyusedoc.md)
+  - [Workflow](todo.md)
+  - [Convention](todo.md)
 
-- Tutorials
+- Tutorials vs tips
 
-  - Flutter
-    - [**Counter** <sup>✨</sup>](fluttercountertutorial.md)
-    - [**Timer** <sup>✨</sup>](fluttertimertutorial.md)
-    - [**Infinite List** <sup>✨</sup>](flutterinfinitelisttutorial.md)
-    - [**Login** <sup>✨</sup>](flutterlogintutorial.md)
-    - [**Weather** <sup>✨</sup>](flutterweathertutorial.md)
-    - [Todos](fluttertodostutorial.md)
-    - [**Firebase Login** <sup>✨</sup>](flutterfirebaselogintutorial.md)
-    - [Firestore Todos](flutterfirestoretodostutorial.md)
-  - AngularDart
-    - [Counter](angularcountertutorial.md)
-  - Flutter + AngularDart
-    - [**Github Search** <sup>✨</sup>](flutterangulargithubsearch.md)
-
-- Recipes
+  - Setup Environments
+    - [**MacOS** <sup>✨</sup>](todo.md)
+    - [**Software** <sup>✨</sup>](todo.md)
 
   - Flutter
-    - [Show SnackBar](recipesfluttershowsnackbar.md)
-    - [Navigation](recipesflutternavigation.md)
-    - [Bloc Access](recipesflutterblocaccess.md)
+    - [**Learn** <sup>✨</sup>](todo.md)
+    - [**Command line** <sup>✨</sup>](todo.md)
+    - [**Popular package** <sup>✨</sup>](todo.md)
+    - [**Setup CI/CD Local** <sup>✨</sup>](todo.md)
+    - [**Setup CI/CD Cloud** <sup>✨</sup>](todo.md)
+    - [Convention](todo.md)
+    - [Setup VSC IDE vs Extension useful](todo.md)
+  - React Native
+    - [**Learn** <sup>✨</sup>](todo.md)
+    - [**Command line** <sup>✨</sup>](todo.md)
+    - [**Popular package** <sup>✨</sup>](todo.md)
+    - [**Setup CI/CD Local** <sup>✨</sup>](todo.md)
+    - [**Setup CI/CD Cloud** <sup>✨</sup>](todo.md)
+    - [Convention](todo.md)
+    - [Setup VSC IDE vs Extension useful](todo.md)
+  - Git
+    - [Add ssh key](todo.md)
+    - [Cheat Sheet](todo.md)
 
-- Tools
-
-  - Extensions
-
-    - [IntelliJ](blocintellijextension.md)
-    - [VSCode](blocvscodeextension.md)
+- My experiences
+  - Interview
+    - [Flutter](todo.md)
+    - [React Native](todo.md)
+    - [iOS](todo.md)
+    - [Android](todo.md)
 
 - API Reference
-  - [bloc](https://pub.dev/documentation/bloc/latest/bloc/bloc-library.html)
-  - [flutter_bloc](https://pub.dev/documentation/flutter_bloc/latest/flutter_bloc/flutter_bloc-library.html)
-  - [angular_bloc](https://pub.dev/documentation/angular_bloc/latest/angular_dart/angular_dart-library.html)
+  - [Todo](todo.md)
