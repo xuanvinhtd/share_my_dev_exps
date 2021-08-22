@@ -6,11 +6,11 @@
 
 ### Android
 
-[fastfile_android_flutter](_snippets/cicd/fastfile_android_flutter.md ':include')
+[fastfile_android_flutter.rb](_snippets/cicd/fastfile_android_flutter.rb.md ':include')
 
 ### iOS
 
-[fastfile_ios_flutter](_snippets/cicd/fastfile_ios_flutter.md ':include')
+[fastfile_ios_flutter.rb](_snippets/cicd/fastfile_ios_flutter.rb.md ':include')
 
 ## How to use
 
