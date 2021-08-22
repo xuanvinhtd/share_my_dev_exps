@@ -28,24 +28,15 @@ This documents includes a lot of the examples, tutorials, short tips, exprience 
 ## Short Tips, Tutorial vs My Exps
 
 ## Setup environments
-
-TODO..
-
 ### Flutter
-- [Website Official for this documentation](https://xuanvinhtd.github.io/share_my_dev_exps/)
 
 ### React Native
-- [Website Official for this documentation](https://xuanvinhtd.github.io/share_my_dev_exps/)
 ## Others
 
-TODO...
 ## Examples
-TODO...
 ## Video Tutorials
 
 ## HIKO Team
-
-TODO...
 ## Maintainers
 
 - [David Ho](https://github.com/xuanvinhtd)
