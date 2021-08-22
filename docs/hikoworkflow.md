@@ -109,7 +109,7 @@ Today goals:
 + ........
 ```
 
-## VPN account
+## Use VPN
 
 !> When developing, you must `turn on` VPN. Please contact with Mobile Team leader to get an account.
 

@@ -12,25 +12,29 @@
 
   - Setup Environments
     - [**MacOS** <sup>✨</sup>](todo.md)
-    - [**Software** <sup>✨</sup>](todo.md)
+    - [**Software** <sup>✨</sup>](macsoftware.md)
 
   - Flutter
-    - [**Learn** <sup>✨</sup>](todo.md)
-    - [**Command line** <sup>✨</sup>](todo.md)
+    - [**Learn** <sup>✨</sup>](learnflutter.md)
+    - [**Command line** <sup>✨</sup>](fluttercmd.md)
     - [**Popular package** <sup>✨</sup>](todo.md)
+    - [**Setup Cocos with flutter** <sup>✨</sup>](todo.md)
     - [**Setup CI/CD Local** <sup>✨</sup>](todo.md)
     - [**Setup CI/CD Cloud** <sup>✨</sup>](todo.md)
     - [Convention](todo.md)
     - [Setup VSC IDE vs Extension useful](todo.md)
   - React Native
-    - [**Learn** <sup>✨</sup>](todo.md)
-    - [**Command line** <sup>✨</sup>](todo.md)
+    - [**Learn** <sup>✨</sup>](learnreactnative.md)
+    - [**Command line** <sup>✨</sup>](reactnativecomandline.md)
+    - [**Boilerplate project** <sup>✨</sup>](templatecreactnative.md)
     - [**Popular package** <sup>✨</sup>](todo.md)
     - [**Setup CI/CD Local** <sup>✨</sup>](todo.md)
     - [**Setup CI/CD Cloud** <sup>✨</sup>](todo.md)
     - [Convention](todo.md)
     - [Setup VSC IDE vs Extension useful](todo.md)
   - Git
+    - [Git tips](gittips.md)
+    - [Merge commit by Rebase and squash](mergecommit.md)
     - [Add ssh key](todo.md)
     - [Cheat Sheet](todo.md)
 
@@ -42,4 +46,7 @@
     - [Android](todo.md)
 
 - API Reference
-  - [Todo](todo.md)
+  - [Flutter](https://flutter.dev/)
+  - [React native](https://reactnative.dev/)
+  - [iOS - Swift](https://developer.apple.com/swift/)
+  - [Android - Kotlin](https://developer.android.com/kotlin)
