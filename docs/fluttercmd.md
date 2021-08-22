@@ -13,18 +13,15 @@
 
 1. Start a iOS/Android simulator
 2. Run below commannds on the terminal
+
 ```
 flutter clean & flutter pub get
-
 // Development
 flutter run --flavor dev -t lib/main_dev.dart
-
 // Staging
 flutter run --flavor stg -t lib/main_stg.dart
-
 // Product
 flutter run --flavor pro -t lib/main_pro.dart
-
 ```
 
 ## Build Template Project
@@ -37,10 +34,8 @@ flutter run --flavor pro -t lib/main_pro.dart
 ```
 // Development
 flutter clean && flutter build apk --flavor dev -t lib/main_dev.dart --release
-
 // Staging
 flutter clean && flutter build apk --flavor stg -t lib/main_stg.dart --release
-
 // Product
 flutter clean && flutter build apk --flavor pro -t lib/main_pro.dart --release
 ```
@@ -50,10 +45,8 @@ flutter clean && flutter build apk --flavor pro -t lib/main_pro.dart --release
 ```
 // Development
 flutter clean && flutter build appbundle --flavor dev -t lib/main_dev.dart --debug
-
 // Staging
 flutter clean && flutter build appbundle --flavor stg -t lib/main_stg.dart --debug
-
 // Product
 flutter clean && flutter build appbundle --flavor pro -t lib/main_pro.dart --debug
 ```
@@ -63,10 +56,8 @@ flutter clean && flutter build appbundle --flavor pro -t lib/main_pro.dart --deb
 ```
 // Development
 flutter clean && flutter build apk --flavor dev -t lib/main_dev.dart --debug
-
 // Staging
 flutter clean && flutter build apk --flavor stg -t lib/main_stg.dart --debug
-
 // Product
 flutter clean && flutter build apk --flavor pro -t lib/main_pro.dart --debug
 ```
@@ -135,6 +126,7 @@ flutter pub upgrade
 
 -[Tutorial](https://flutter.dev/docs/get-started/install/macos)
 - Create app by command:
+
 ```
 flutter create my_app
 cd my_app
@@ -145,9 +137,11 @@ flutter runs
 
 ### Setup
 - Install rbenv to manage multiple Ruby version.
+
 ```
 brew install rbenv
 ```
+
 Check sheet for [rbenv](https://devhints.io/rbenv)
 
 - Install bundle - Bundler provides a consistent environment for Ruby projects by tracking and installing the exact gems and versions that are needed..)
@@ -165,23 +159,31 @@ gem install bundler
 ## Init with new project
 You must go to root of android/ios finder of your project to run the below commands:
 - Add gem file:
+
 ```
 bundle init
 ```
+
 - Open gem file to add ruby version for this project
+
 ```
 ruby "=2.7.2" # It compatible with fastlane version
 ```
+
 Note: If your mac have not ruby 2.7.2, you use rbenv to install it and set this project use this ruby version(rbenv local 2.7.2)
 - Add fastlane:
+
 ```
 fastlane init
 ```
+
 - Add firebase distribution and authenticate, get ci token
+
 ```
 bundle exec fastlane add_plugin firebase_app_distribution
 bundle exec fastlane run firebase_app_distribution_login
 ```
+
 - Setup github action
 - create file workflow/main.yml(view in source)
 
@@ -192,6 +194,7 @@ bundle exec fastlane run firebase_app_distribution_login
 ## Init with old project
 - Just install version ruby in Gem file by rbenv
 - Go to android/ios directory and run command bellow:
+
 ```
 bundle install
 ```
@@ -215,6 +218,7 @@ bundle install
 - Only start run gihub action when push code to branch name: deploy_app_to_firebase
 
 Note: Before you merge and push code to the branch(deploy_app_to_firebase), you must setting "build_number,build_name, release_note" in main.yml file. If you need them change:
+
 ```
 options: '{"build_number": "1", "build_name": "1.0.3", "release_note": "Test add parameter"}'
 ```
@@ -224,20 +228,25 @@ options: '{"build_number": "1", "build_name": "1.0.3", "release_note": "Test add
 ##### iOS
 
 - Deploy iOS Dev App to firebase Distribution:
+
 ```
 bundle exec fastlane deploy_dev_app_to_firebase
 ```
+
 - Deploy iOS Prod App to firebase Distribution:
+
 ```
 bundle exec fastlane deploy_pro_app_to_firebase
 ```
 
 - Deploy iOS Prod App to TestFlight:
+
 ```
 bundle exec fastlane deploy_pro_app_to_testflight
 ```
 
 - Deploy iOS Prod App to AppStore:
+
 ```
 bundle exec fastlane deploy_pro_app_to_appstore
 ```
@@ -247,11 +256,13 @@ Note: If setup testflight authentication, should flow [here](https://sarunw.com/
 ##### Andriod
 
 - Deploy APK of Dev App to firebase Distribution:
+
 ```
 bundle exec fastlane deploy_dev_app_to_firebase
 ```
 
 - Deploy APK of Prod App to firebase Distribution:
+
 ```
 bundle exec fastlane deploy_prod_app_to_firebase
 ```
@@ -273,35 +284,40 @@ Note: If build fail the iOS on Cloud: ' The Xcode project defines schemes: dev' 
 ### More
 - Check KeyStore in file apk or AppBundle
 APK file:
+
 ```
 keytool -printcert -jarfile app.apk
 ```
+
 ABB file:
+
 ```
 keytool -printcert -jarfile app.aab user_id
 ```
 ### Clean Flutter Project
+
 ```
 flutter clean
 flutter pub cache repair && 
 flutter clean && flutter packages get
 ```
 ### Error Pod
+
+
 ```
 1. flutter clean
 rm -Rf ios/Pods
 rm -Rf ios/.symlinks
 rm -Rf ios/Flutter/Flutter.framework
 rm -Rf ios/Flutter/Flutter.podspec
-
 2. Remove Podfile
 rm ios/Podfile
-
 3. Run App
 flutter pub get && flutter run --flavor dev -t lib/main_dev.dart
 ```
 
 ### Genarate KeyStore
+
 ```
 keytool -genkey -v -keystore CastDiceFree.jks -storepass cdfree20210504 -alias CastDiceFreeKey -keypass 20200504 -keyalg RSA -keysize 2048 -validity 10000
 ```
