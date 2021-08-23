@@ -8,59 +8,23 @@ This page will help you quickly create a new component, import something by JUST
 
 - None props
 
-```
-import React from 'react'
-import { View } from 'react-native'
-
-const YourView = () => {
-  return <View />
-}
-
-const styles = StyleSheet.create({})
-
-export default YourView
-```
+[viewrn1.js](_snippets/rn/viewrn1.js.md ':include')
 
 - Have props
-```
-import React from 'react'
-import { View } from 'react-native'
 
-const YourView = props => {
-  const { style, disabled = false, onPress, children } = props;
-  return <View />
-}
+[viewrn2.js](_snippets/rn/viewrn2.js.md ':include')
 
-const styles = StyleSheet.create({})
-YourView.propTypes = {
-  items: PropTypes.array,
-  onItemPress: PropTypes.func,
-  title: PropTypes.string,
-}
-
-YourView.defaultProps = {
-  items: [],
-  title: '',
-  onItemPress: item => {},
-}
-
-export default YourView
-```
 
 2. Function
 
-```
- const resetUserName = () => {}
-const onLogin = async () => {
-}
-const onGameItemPress = ({ id }) => {
-}
-```
+
+[funcrn.js](_snippets/rn/funcrn.js.md ':include')
 
 
 ## Import Component and Use
 
 1. Containers(Page)
+
 
 ```
 import { MenuPage, LoginPage, AccountPage } from '@/Containers'
@@ -74,12 +38,14 @@ import { HeaderView, SectionMenu, RowMenu } from '@/Components'
 
 3. Theme
 
+
 ```
 import { useTheme, AppFonts, ResponsiveFont, Colors } from '@/Theme'
 const { Common, Layout, Images } = useTheme()
 ```
 
 4. Translation
+
 
 ```
 import { useTranslation } from 'react-i18next'
@@ -88,13 +54,16 @@ const { t } = useTranslation()
 
 5. React Component
 
+
 ```
 import React, { useState, useEffect, useRef } from 'react'
 import { Image, Text, StyleSheet } from 'react-native'
 useEffect(() => {}, [])
 ```
 
+
 6. Redux
+
 
 ```
 import { useDispatch, useSelector } from 'react-redux'
@@ -106,12 +75,8 @@ const userInfo = useSelector(state => state.user.userInfo)
 
 - Use font:
 
-```
-...AppFonts.textCondensedBold,
-...AppFonts.textCondensedBlack,
-...AppFonts.textRegular,
-...AppFonts.textMedium,
-```
+[fontrn.js](_snippets/rn/fontrn.js.md ':include')
+
 !> Don't define more font to use! If you have an exception, please confirm với Teamleader
 
 - Style:
@@ -119,77 +84,12 @@ const userInfo = useSelector(state => state.user.userInfo)
 ?> Use `hp vs wp` to Responsive UI for mobile and tablet or iPad
 - [responsive screen package](https://www.npmjs.com/package/react-native-responsive-screen)
 
-```
-import DeviceInfo from 'react-native-device-info'
-let isTablet = DeviceInfo.isTablet()
-import {
-  widthPercentageToDP as wp,
-  heightPercentageToDP as hp,
-} from 'react-native-responsive-screen'
-```
+
+[styledevice.js](_snippets/rn/styledevice.js.md ':include')
 
 ?> [Sample and demo Layout Flexbox](https://reactnative.dev/docs/flexbox)
 
-```
-const styles = StyleSheet.create({
-  itemContainer: {
-    width: size,
-    height: size,
-    marginTop: wp('0.3%'),
-    marginBottom: isTablet ? hp('5%') : hp('3.2%'),
-  },
-  topRightMark: {
-    ...StyleSheet.absoluteFillObject,
-    alignSelf: 'flex-end',
-    marginTop: isTablet ? hp('-1.6%') : hp('-0.4%'),
-    position: 'absolute',
-    width: isTablet ? hp('27%') : wp('33%'),
-    height: isTablet ? hp('6%') : hp('3.4%'),
-  },
-  centerMark: {
-    ...StyleSheet.absoluteFillObject,
-    position: 'absolute',
-    marginLeft: wp('1.6%'),
-    marginTop: isTablet ? wp('4.5%') : wp('2%'),
-    width: wp('23%'),
-    height: hp('9%'),
-  },
-  itemIcon: {
-    flex: 1,
-    width: size - 20,
-    alignSelf: 'center',
-  },
-  sectionTitle: {
-    ...AppFonts.textCondensedBlack,
-    marginTop: wp('4%'),
-    marginLeft: wp('4%'),
-    marginBottom: wp('4%'),
-    color: Colors.title,
-    fontSize: ResponsiveFont(16),
-  },
-  // Use to show a text below an icon
-  itemTitle: {
-    ...StyleSheet.absoluteFillObject,
-    bottom: '-20%',
-    textAlign: 'center',
-    alignSelf: 'center',
-    marginTop: wp('24%'),
-    color: Colors.menuTitle,
-    fontSize: ResponsiveFont(10.5),
-    ...AppFonts.textCondensedBold,
-  },
-  firstTitle: {
-    ...StyleSheet.absoluteFillObject,
-    bottom: '-20%',
-    textAlign: 'center',
-    alignSelf: 'center',
-    marginTop: wp('24%'),
-    color: Colors.title,
-    fontSize: ResponsiveFont(10.5),
-    ...AppFonts.textCondensedBold,
-  },
-})
-```
+[stylern.js](_snippets/rn/stylern.js.md ':include')
 
 ## Cheat Sheet
 
