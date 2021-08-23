@@ -27,6 +27,7 @@
     - [**Learn** <sup>✨</sup>](learnreactnative.md)
     - [**Command line** <sup>✨</sup>](reactnativecomandline.md)
     - [**Boilerplate project** <sup>✨</sup>](templatecreactnative.md)
+    - [**Tips vs Snippets** <sup>✨</sup>](tipvssnippetsrn.md)
     - [**Popular package** <sup>✨</sup>](todo.md)
     - [**Setup CI/CD Local** <sup>✨</sup>](cicdrn.md)
     - [**Setup CI/CD Cloud** <sup>✨</sup>](todo.md)
