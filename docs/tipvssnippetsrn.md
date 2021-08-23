@@ -23,53 +23,7 @@ This page will help you quickly create a new component, import something by JUST
 
 ## Import Component and Use
 
-1. Containers(Page)
-
-
-```
-import { MenuPage, LoginPage, AccountPage } from '@/Containers'
-```
-
-2. Componments
-
-```
-import { HeaderView, SectionMenu, RowMenu } from '@/Components'
-```
-
-3. Theme
-
-
-```
-import { useTheme, AppFonts, ResponsiveFont, Colors } from '@/Theme'
-const { Common, Layout, Images } = useTheme()
-```
-
-4. Translation
-
-
-```
-import { useTranslation } from 'react-i18next'
-const { t } = useTranslation()
-```
-
-5. React Component
-
-
-```
-import React, { useState, useEffect, useRef } from 'react'
-import { Image, Text, StyleSheet } from 'react-native'
-useEffect(() => {}, [])
-```
-
-
-6. Redux
-
-
-```
-import { useDispatch, useSelector } from 'react-redux'
-const dispatch = useDispatch()
-const userInfo = useSelector(state => state.user.userInfo)
-```
+[snippetrn.js](_snippets/rn/snippetrn.js.md ':include')
 
 7. Style vs Font
 
@@ -87,7 +41,7 @@ const userInfo = useSelector(state => state.user.userInfo)
 
 [styledevice.js](_snippets/rn/styledevice.js.md ':include')
 
-?> [Sample and demo Layout Flexbox](https://reactnative.dev/docs/flexbox)
+?> - [Link Sample and demo Layout Flexbox](https://reactnative.dev/docs/flexbox)
 
 [stylern.js](_snippets/rn/stylern.js.md ':include')
 
