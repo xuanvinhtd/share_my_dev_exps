@@ -66,3 +66,13 @@ Open config of SZH
 ```
 nano ~/.zshrc
 ```
+
+## Open git config vs setup SSH
+
+```
+nano ~/.ssh/config
+ls -al ~/.ssh
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+pbcopy < ~/.ssh/id_ed25519.pub
+```
