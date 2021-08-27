@@ -13,6 +13,8 @@
   - Setup Environments
     - [**MacOS** <sup>✨</sup>](todo.md)
     - [**Software** <sup>✨</sup>](macsoftware.md)
+    - [**CI/CD vs Fastlane + Firebase** <sup>✨</sup>](setupcicdenv.md)
+    - [**Fastlane + Telegram Bot** <sup>✨</sup>](setupbottelegram.md)
 
   - Flutter
     - [**Learn** <sup>✨</sup>](learnflutter.md)

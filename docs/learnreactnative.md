@@ -39,6 +39,8 @@ This course very detail to learn and setup the react native project.
 
 !> Use must know about the [Hook](https://reactjs.org/docs/hooks-intro.html)
 
+?> [Hooks many value](https://reactjs.org/docs/hooks-faq.html#should-i-use-one-or-many-state-variables)
+
 - [Redux](https://redux.js.org/)
 - What is Redux? - Redux is a pattern and library for managing and updating application state, using events called "actions". It serves as a centralized store for state that needs to be used across your entire application, with rules ensuring that the state can only be updated in a predictable fashion.
 - [Quick learning the Redux](https://redux.js.org/tutorials/fundamentals/part-1-overview)

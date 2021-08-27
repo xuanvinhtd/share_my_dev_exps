@@ -15,6 +15,9 @@
 react-native run-ios --simulator="iPhone 6s"
 react-native run-ios --simulator="iPhone 8 Plus"
 react-native run-ios --simulator="iPad Pro (12.9-inch) (4th generation)"
+eact-native run-ios --simulator="iPhone 11 Pro Max"
+emulator -avd Samsung_Galaxy_Tab_S6_Lite_API_30
+emulator -avd Pixel_XL_API_30
 ```
 
 2. Android:
@@ -47,5 +50,11 @@ yarn start -- --reset-cache
 ```
 
 !> Note: When pull code, If have more new UI or new package, you should run above command.
+
+
+```
+yarn clean:android && yarn clean:ios && watchman watch-del-all && rm -rf node_modules/ && yarn cache clean && yarn install && cd ios && pod install && cd .. && react-native link && yarn start -- --reset-cache
+```
+
 
 ?> Updating....
