@@ -40,6 +40,8 @@
     - [Merge commit by Rebase and squash](mergecommit.md)
     - [Add ssh key](todo.md)
     - [Cheat Sheet](todo.md)
+  - Python
+    -[Server with Flask](serverflask.md)
 
 - My experiences
   - Interview
